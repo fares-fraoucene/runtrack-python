@@ -4,8 +4,7 @@ def calcule(num1, operator, num2):
         '-': lambda x, y: x - y,
         '*': lambda x, y: x * y,
         '/': lambda x, y: x / y,
-        '%': lambda x, y: x % y
-        }
+        '%': lambda x, y: x % y}
     if operator in op:
         return op[operator](num1,num2)
         
